@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Your Interest</title>
+
+        <style>
+            *{
+                margin: 0;
+                 padding: 0;
+            }
+            body{
+                padding-top: 2em;
+            }
+            table{
+                font-size: 18px;
+                padding: 10px;
+            }
+            td{
+                padding: 5px 0;
+            }
+            input{
+                padding: 5px 0;
+            }
+            .button{
+                width: 80px;
+                margin: 0 10px;
+                background-color: black;
+                color: white;
+                border: none;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <form style="width: 40%; margin: 0 auto; border: 5px solid cyan;">
+            <h1 style="background-color: blue; color: white; padding: 5px;">REGISTER MEMBER</h1>
+            <table>
+                <tr> <!-- full name -->
+                    <td style="width: 28%;"><lable for="yourname">Full Name</lable></td>
+                    <td><input type="text" name="yourname" value="FullName"></td>
+                </tr>
+
+                <tr> <!--Birth Day -->
+                    <td><lable for="birthday">Birth</td>
+                    <td><input type="date" name="birthday" value="BrithDay"></td>
+                </tr>
+
+                <tr> <!-- Gender -->
+                    <td><lable for=gender>Gender</lable></td>
+                    <td>
+                        <input type="radio" name="gender" value="Male"><lable for="radio">Male</lable>
+                        <input type="radio" name="gender" value="Female"><lable for="radio">Female</lable>
+                        <input type="radio" name="gender" value="Other"><lable for="radio">Other</lable>
+                    </td>
+                </tr>
+
+                <tr> <!-- Address -->
+                    <td><lable for="address">Address</lable></td>
+                    <td rowspan="3">
+                        <textarea type="text" name="address" rows="3" cols="30"></textarea>
+                    </td>
+                </tr>
+
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+
+                <tr> <!-- Select Class -->
+                    <td><lable fot=class>Class</lable></td>
+                    <td>
+                        <select name="class">
+                            <option value="select-class">Select-Class</option>
+                            <option value="class-1">Class-1</option>
+                            <option value="class-2">Class-2</option>
+                            <option value="class-3">Class-3</option>
+                            <option value="class-4">Class-4</option>
+                            <option value="class-5">Class-5</option>
+                        </select>
+                    </td>
+                </tr>
+
+
+
+                <tr> <!-- Email -->
+                    <td><lable gor="email">Email</td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+
+                <tr> <!-- Telephone -->
+                    <td><lable for="telephone">Tel</lable></td>
+                    <td><input type="tel" name="telephone"></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" class="button">
+                        <input type="reset" class="button">
+                </tr>
+            </table>
+        </form>
+    </body>
+<html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

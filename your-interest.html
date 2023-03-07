@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Interest</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box
+    }
+        body{
+            font-family: arial;
+            padding-top: 40px;
+            font-size: 20px;
+        }
+        form{
+            width: 700px;
+            border: 10px solid cyan;
+            padding: 5px;
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+        h1{
+            background-color: red;
+            color: white;
+            text-align: center;
+        }
+        input{
+            margin: 5px 0;
+            font-size: 25px;
+        }
+        td{
+            padding-left: 10px;
+        }
+        lable{
+            padding-left: 10px;
+        }
+        button{
+            font-size: 20px;
+            padding: 5px 10px;
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method=post id="form-interset">
+        <h1>Your Interest</h1>
+        <table width=100%>
+            <tr>
+                <td style="text-align: right;"><lable for="yourname">Full Name</lable></td>
+                <td style="padding-left: 10px;" colspan="3"><input type="text" name"yourname"></td>
+
+            </tr>
+
+            <tr>
+                <td style="text-align: right;"><lable for="email">Email</lable></td>
+                <td style="padding-left: 10px;" colspan="3"><input type="text" name"email"></td>
+            </tr>
+<!-- interset -->
+            <tr>
+                <td style="text-align: right;"><lable>Interset</lable></td>
+                <td><input type="checkbox" id="sport" name="hobby" value="Sport"><lable for="sport">Sport</lable></td>
+                <td><input type="checkbox" id="music" name="hobby" value="Music"><lable for="music">Music</lable></td>
+                <td><input type="checkbox" id="readbook" name="hobby" value="ReadBook"><lable for="readbook">Read Book</lable></td>
+            </tr>
+
+            <tr>
+            <td></td>
+                <td><input type="checkbox" id="website" name="hobby" value="Website"><lable for="website">Website</lable></td>
+                <td><input type="checkbox" id="gameplay" name="hobby" value="GamePlay"><lable for="gameplay">Game Play</lable></td>
+                <td><input type="checkbox" id="movie" name="hobby" value="Movie"><lable for="movie">Movie</lable></td>
+            </tr>
+
+            </tr>
+                <td></td>
+                <td><input type="checkbox" id="travel" name="hobby" value="Travel"><lable for="travel">Travel</lable></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td style="padding-top: 15px;"><button type="submit" form="form-interset" value="Submit">Submit</button></td>
+                <td style="padding-top: 15px;"><button type="reset" form="form-interset" value="Reset">Reset</button></td>
+            </tr>
+        </table>
+    </form>
+    <br><br><br><br>
+
+    <form action="#" ></form>
+</body>
+</html>
